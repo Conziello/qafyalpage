@@ -743,9 +743,26 @@ include 'db_fns.php';
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-12 col-sm-4 col-md-4 col-lg-6">
+                <div class="col-12 col-sm-4 col-md-4 col-lg-1">
                         <!-- Single Team -->
-                        <div class="single-team text-center radius-100 overflow-hidden m-2 m-lg-0">
+                        <!-- <div class="single-team text-center radius-100 overflow-hidden m-2 m-lg-0"> -->
+                            <!-- Team Thumb -->
+                            <div class="team-thumb radius-100 d-inline-block position-relative overflow-hidden">
+                                <!-- <img src="assets/img/avatar/avatar-5.jpeg" alt=""> -->
+                                <!-- Team Overlay -->
+                                <div class="team-overlay radius-100">
+                                     <h4 class="team-name text-white">Get a fresh prespective  from us</h4>
+                                    <!-- <h5 class="team-post text-white mt-2 mb-3">Founder </h5> --> 
+                                    <!-- Team Icons -->
+                                    
+                                     
+                                <!-- </div> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+                        <!-- Single Team -->
+                        <div class="single-team text-center  overflow-hidden m-2 m-lg-0">
                             <!-- Team Thumb -->
                             <div class="team-thumb radius-100 d-inline-block position-relative overflow-hidden">
                                 <img src="assets/img/avatar/avatar-5.jpeg" alt="">
@@ -759,12 +776,30 @@ include 'db_fns.php';
                                         <a class="p-2" href="#"><i class="fab fa-twitter"></i></a>
                                         <a class="p-2" href="#"><i class="fab fa-google-plus-g"></i></a>
                                         <a class="p-2" href="#"><i class="fab fa-linkedin-in"></i></a>
-                                    </div> 
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-12 col-md-4 col-lg-6">
+                    <div class="col-12 col-sm-4 col-md-4 col-lg-1">
+                        <!-- Single Team -->
+                        <!-- <div class="single-team text-center radius-100 overflow-hidden m-2 m-lg-0"> -->
+                            <!-- Team Thumb -->
+                            <div class="team-thumb radius-100 d-inline-block position-relative overflow-hidden">
+                                <!-- <img src="assets/img/avatar/avatar-5.jpeg" alt=""> -->
+                                <!-- Team Overlay -->
+                                <div class="team-overlay radius-100">
+                                     <h4 class="team-name text-white">Get a fresh prespective  from us</h4>
+                                    <!-- <h5 class="team-post text-white mt-2 mb-3">Founder </h5> --> 
+                                    <!-- Team Icons -->
+                                    
+                                     
+                                <!-- </div> -->
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4">
                         <!-- Single Team -->
                         <div class="single-team text-center radius-100 overflow-hidden m-2 m-lg-0">
                             <!-- Team Thumb -->
