@@ -90,9 +90,9 @@ include 'db_fns.php';
                             </li>
 
                             
-                            <!-- <li class="nav-item">
-                                <a class="nav-link scroll" href="#screenshots">Screenshots</a>
-                            </li> -->
+                             <li class="nav-item">
+                                <a class="nav-link scroll" href="#team">Team</a>
+                            </li> 
                             <li class="nav-item">
                                 <a class="nav-link scroll" href="#pricing">Pricing</a>
                             </li>
@@ -585,7 +585,7 @@ include 'db_fns.php';
                                     </div>
                                     <!-- Plan Price -->
                                     <div class="plan-price pb-2 pb-sm-3">
-                                        <h1 class="color-primary"><small class="fw-7">$</small>200</h1>
+                                        <h1 class="color-primary"><small class="fw-7">$</small>2000</h1>
                                     </div>
                                     <!-- Plan Description -->
                                     <div class="plan-description">
@@ -620,7 +620,7 @@ include 'db_fns.php';
                                     </div>
                                     <!-- Plan Price -->
                                     <div class="plan-price pb-2 pb-sm-3">
-                                        <h1 class="color-primary"><small class="fw-7">$</small>350</h1>
+                                        <h1 class="color-primary"><small class="fw-7">$</small>3500</h1>
                                     </div>
                                     <!-- Plan Description -->
                                     <div class="plan-description">
@@ -730,7 +730,7 @@ include 'db_fns.php';
         <!-- ***** Price Plan Area End ***** -->
 
         <!-- ***** Team Area Start ***** -->
-        <section class="section team-area team-style-two overflow-hidden ptb_100">
+        <section id="team" class="section team-area team-style-two overflow-hidden ptb_100">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-12 col-md-10 col-lg-6">
@@ -760,18 +760,25 @@ include 'db_fns.php';
                             </div>
                         </div>
                     </div>
+                    
                     <div class="col-12 col-sm-4 col-md-4 col-lg-4">
                         <!-- Single Team -->
                         <div class="single-team text-center  overflow-hidden m-2 m-lg-0">
-                            <!-- Team Thumb -->
+                            <!-- Team Thumb --><h4 class="team-name text-white">Prince Munene</h4>
+                                    <h5 class="team-post text-white mt-2 mb-3">Founder </h5>
                             <div class="team-thumb radius-100 d-inline-block position-relative overflow-hidden">
                                 <img src="assets/img/avatar/avatar-5.jpeg" alt="">
+                                <h4 class="team-name text-white">Prince Munene</h4>
+                                    <h5 class="team-post text-white mt-2 mb-3">Founder </h5>
+                                <h4 class="team-name text-white">Prince Munene</h4>
+                                    <h5 class="team-post text-white mt-2 mb-3">Founder </h5>
                                 <!-- Team Overlay -->
                                 <div class="team-overlay radius-100">
-                                    <h4 class="team-name text-white">Prince Munene</h4>
-                                    <h5 class="team-post text-white mt-2 mb-3">Founder </h5>
+                               
                                     <!-- Team Icons -->
                                     <div class="team-icons">
+                                    <h4 class="team-name text-white">Prince Munene</h4>
+                                    <h5 class="team-post text-white mt-2 mb-3">Founder </h5>
                                         <a class="p-2" href="#"><i class="fab fa-facebook-f"></i></a>
                                         <a class="p-2" href="#"><i class="fab fa-twitter"></i></a>
                                         <a class="p-2" href="#"><i class="fab fa-google-plus-g"></i></a>
@@ -802,9 +809,13 @@ include 'db_fns.php';
                     <div class="col-12 col-sm-12 col-md-4 col-lg-4">
                         <!-- Single Team -->
                         <div class="single-team text-center radius-100 overflow-hidden m-2 m-lg-0">
+                        <h4 class="team-name text-white">Prince Munene</h4>
+                                    <h5 class="team-post text-white mt-2 mb-3">Founder </h5>
                             <!-- Team Thumb -->
                             <div class="team-thumb radius-100 d-inline-block position-relative overflow-hidden">
                                 <img src="assets/img/avatar/avatar-6.jpeg" alt="">
+                                <h4 class="team-name text-white">Prince Munene</h4>
+                                    <h5 class="team-post text-white mt-2 mb-3">Founder </h5>
                                 <!-- Team Overlay -->
                                 <div class="team-overlay radius-100">
                                     <h4 class="team-name text-white">Alex Mbaka</h4>
@@ -843,7 +854,7 @@ include 'db_fns.php';
 
 
                              <div class="button-group store-buttons d-flex justify-content-center">
-                             <a href="assets/img/docs/qafya.pdf" target="_blank"><h4 class="text-white"><i>Download Q-Afya demo here</i>
+                             <a href="assets/img/docs/qafya" target="_blank"><h4 class="text-white"><i> Q-Afya demo available  here</i>
                                     <img src="assets/img/logo/logo.png" alt="downlaod pdf ">
                                     </h4> </a>
                                 <!-- <a href="#">
@@ -975,7 +986,7 @@ include 'db_fns.php';
                                 <ul>
                                     <li class="py-2"><a href="#">Home</a></li>
                                     <li class="py-2"><a href="#features">Features</a></li>
-                                    <li class="py-2"><a href="#screenshots">Screenshot</a></li>
+                                    <li class="py-2"><a href="#team">Team</a></li>
                                     <li class="py-2"><a href="#pricing">Pricing</a></li>
                                     <li class="py-2"><a href="#contact">Contact</a></li>
                                 </ul>
